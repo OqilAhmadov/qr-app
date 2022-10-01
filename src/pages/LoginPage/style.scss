@@ -1,4 +1,5 @@
 .login {
+    height: 100vh;
   background: #eff0fb;
   padding: 18px 16px;
   &__content {
@@ -14,28 +15,7 @@
     color: #000000;
     margin-bottom: 26px;
   }
-  &__tab {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    margin-bottom: 26px;
-    .tab {
-      width: 100%;
-      font-weight: 400;
-      font-size: 12px;
-      line-height: 14px;
-      color: #363636;
-      background: #f5f6f9;
-      text-align: center;
-      cursor: pointer;
-      padding: 13px 0;
-    }
-    .tab-active {
-      width: 100%;
-      color: #7159bd;
-      background: #eff0fb;
-    }
-  }
+ 
   &__form {
     .input-title {
       font-weight: 400;
@@ -76,14 +56,7 @@
         }
       }
     }
-    .forgot-password {
-        cursor: pointer;
-      font-weight: 400;
-      font-size: 14px;
-      line-height: 22px;
-      color: #7159bd;
-      margin: 16px 0;
-    }
+   
     .btn-submit {
       width: 100%;
       text-align: center;
@@ -93,33 +66,7 @@
       border-radius: 6px;
       color: #ffffff;
       cursor: pointer;
-    }
-  }
-  &__lang {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    margin-bottom: 50px;
-    .lang {
-        cursor: pointer;
-      font-weight: 400;
-      font-size: 14px;
-      line-height: 22px;
-      background: #ffffff;
-      border: 1px solid #d9d9d9;
-      box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.016);
-      border-radius: 6px;
-      padding: 5px 16px;
-      text-align: center;
-    }
-    .lang-active {
-      background: #ffffff;
-      border: 1px solid #7159bd;
-      box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.016);
-      border-radius: 6px;
-      color: #7159bd;
+      margin-top: 26px;
     }
   }
 }

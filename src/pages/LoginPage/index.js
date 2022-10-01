@@ -21,10 +21,6 @@ const LoginPage = () => {
     <div className="login">
       <div className="login__content">
         <h3 className="login__title">Pieslēgties</h3>
-        <div className="login__tab">
-          <div className="tab tab-active">ar e-pastu</div>
-          <div className="tab">ar telefona numuru</div>
-        </div>
         <div className="login__form">
           <form>
             <h4 className="input-title">E-pasts</h4>
@@ -47,16 +43,11 @@ const LoginPage = () => {
                 )}
               </button>
             </div>
-            <p className="forgot-password">Aizmirsāt paroli?</p>
             <button className="btn-submit" type="submit">
               Pieslēgties
             </button>
           </form>
         </div>
-      </div>
-      <div className="login__lang">
-        <div className="lang">LAT</div>
-        <div className="lang lang-active">ENG</div>
       </div>
     </div>
   );
