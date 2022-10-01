@@ -1,0 +1,125 @@
+.login {
+  background: #eff0fb;
+  padding: 18px 16px;
+  &__content {
+    background: #ffffff;
+    border-radius: 8px;
+    padding: 26px;
+    margin-bottom: 46px;
+  }
+  &__title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    color: #000000;
+    margin-bottom: 26px;
+  }
+  &__tab {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 26px;
+    .tab {
+      width: 100%;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 14px;
+      color: #363636;
+      background: #f5f6f9;
+      text-align: center;
+      cursor: pointer;
+      padding: 13px 0;
+    }
+    .tab-active {
+      width: 100%;
+      color: #7159bd;
+      background: #eff0fb;
+    }
+  }
+  &__form {
+    .input-title {
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 22px;
+      color: #000000;
+      margin-bottom: 8px;
+    }
+    .input-email {
+      width: 100%;
+      background: #ffffff;
+      border: 1px solid #eaebf6;
+      border-radius: 6px;
+      padding: 8px 12px;
+      margin-bottom: 26px;
+    }
+    .password {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 8px 12px;
+      background: #ffffff;
+      border: 1px solid #eaebf6;
+      border-radius: 6px;
+      .input-password {
+        width: 100%;
+        border: none;
+        background-color: transparent;
+      }
+      button {
+        width: 14px;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        background-color: transparent;
+        img {
+          width: 14px;
+        }
+      }
+    }
+    .forgot-password {
+        cursor: pointer;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 22px;
+      color: #7159bd;
+      margin: 16px 0;
+    }
+    .btn-submit {
+      width: 100%;
+      text-align: center;
+      padding: 9px 0;
+      border: none;
+      background: #7159bd;
+      border-radius: 6px;
+      color: #ffffff;
+      cursor: pointer;
+    }
+  }
+  &__lang {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 50px;
+    .lang {
+        cursor: pointer;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 22px;
+      background: #ffffff;
+      border: 1px solid #d9d9d9;
+      box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.016);
+      border-radius: 6px;
+      padding: 5px 16px;
+      text-align: center;
+    }
+    .lang-active {
+      background: #ffffff;
+      border: 1px solid #7159bd;
+      box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.016);
+      border-radius: 6px;
+      color: #7159bd;
+    }
+  }
+}

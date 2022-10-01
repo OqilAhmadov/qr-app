@@ -7,7 +7,7 @@ import Modal from "components/modal";
 const RegistrationQR = () => {
   return (
     <div className="main">
-      <Modal.InProgress typeColor="green" button={true} buttonTitle="Register attendance" />
+      {/* <Modal.NotFound typeColor="green" button={true} buttonTitle="Register attendance" /> */}
       <div className="main__top">
         <p>
           Registering attendants for 3 events. <Link to="/">Edit</Link>{" "}
