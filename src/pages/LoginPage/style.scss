@@ -1,5 +1,5 @@
 .login {
-    height: 100vh;
+  height: 100vh;
   background: #eff0fb;
   padding: 18px 16px;
   &__content {
@@ -15,7 +15,7 @@
     color: #000000;
     margin-bottom: 26px;
   }
- 
+
   &__form {
     .input-title {
       font-weight: 400;
@@ -56,7 +56,13 @@
         }
       }
     }
-   
+    .forgotPassword {
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 22px;
+      color: #7159bd;
+      margin-top: 16px;
+    }
     .btn-submit {
       width: 100%;
       text-align: center;

@@ -43,6 +43,7 @@ const LoginPage = () => {
                 )}
               </button>
             </div>
+            <p className="forgotPassword">Aizmirsāt paroli?</p>
             <button className="btn-submit" type="submit">
               Pieslēgties
             </button>
