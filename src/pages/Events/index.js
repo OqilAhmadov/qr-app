@@ -2,6 +2,7 @@ import React from "react";
 import "./style.scss";
 
 import IconSettings from "assets/images/icon-settings.svg";
+import SeveralEvents from "components/modal/SeveralEvents";
 
 const Events = () => {
   return (
@@ -19,10 +20,10 @@ const Events = () => {
             <div class="checkbox">
               <input type="checkbox" value="1" id="checkboxInputOne" name="" />
               <label for="checkboxInputOne"></label>
-            </div>
+            </div>{" "}
             <div className="text">
-              <h3 className="text__title ">Lunch series A</h3>
-              <span className="text__caption">5A; 5B; 5C</span>
+              <h3 className="text__title ">Lunch series C</h3>
+              <span className="text__caption">7A; 7B; 7C</span>
             </div>
           </li>
           <li className="items">
@@ -31,8 +32,8 @@ const Events = () => {
               <label for="checkboxInputTwo"></label>
             </div>{" "}
             <div className="text">
-              <h3 className="text__title ">Lunch series B</h3>
-              <span className="text__caption">6A; 6B; 6C</span>
+              <h3 className="text__title ">Lunch series C</h3>
+              <span className="text__caption">7A; 7B; 7C</span>
             </div>
           </li>
           <li className="items">

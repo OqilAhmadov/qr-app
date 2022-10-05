@@ -17,6 +17,7 @@ const routes = [
   { path: "/attendanceList", element: AttendanceList },
   { path: "/settings", element: Settings },
   { path: "/login", element: Login },
+  { path: "/events", element: Events },
 ];
 
 const RoutesContainer = () => (
@@ -28,7 +29,7 @@ const RoutesContainer = () => (
             const RouteComponent = route.element;
             return <Route key={key} path={route.path} element={<RouteComponent />} />;
           })}
-        <Route path="/events" element={<Events />} />
+        {/* <Route path="/events" element={<Events />} /> */}
         </Routes>
       {/* </Layout> */}
     </App>
