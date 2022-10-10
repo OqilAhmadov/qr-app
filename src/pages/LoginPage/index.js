@@ -21,6 +21,10 @@ const LoginPage = () => {
     <div className="login">
       <div className="login__content">
         <h3 className="login__title">Pieslēgties</h3>
+        <div className="chooseOneOf">
+          <h3 className="email">ar e-pastu</h3>
+          <h3 className="phone">ar telefona numuru</h3>
+        </div>
         <div className="login__form">
           <form>
             <h4 className="input-title">E-pasts</h4>

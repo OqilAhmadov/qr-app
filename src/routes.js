@@ -9,14 +9,14 @@ const Events = lazy(() => import("./pages/Events"));
 const Registration = lazy(() => import("./pages/RegistrationQR"));
 const AttendanceList = lazy(() => import("./pages/AttendanceList"));
 const Settings = lazy(() => import("./pages/Settings"));
-const Login = lazy(() => import("./pages/LoginPage"));
+const Auth = lazy(() => import("./pages/Auth"));
 
 const routes = [
   { path: "", element: Home },
   { path: "/registration", element: Registration },
   { path: "/attendanceList", element: AttendanceList },
   { path: "/settings", element: Settings },
-  { path: "/login", element: Login },
+  { path: "/auth", element: Auth },
   { path: "/events", element: Events },
 ];
 
