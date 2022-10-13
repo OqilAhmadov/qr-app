@@ -18,7 +18,7 @@ const Auth = () => {
         </div>
       </div>
       <div className="auth__main">
-        <ChooseAuth />
+        <LoginPage />
       </div>
       <div className="auth__lang">
         <span className="activeLang">LAT</span>

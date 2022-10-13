@@ -1,6 +1,5 @@
 import React from "react";
 import "./style.scss";
-
 import IconSettings from "assets/images/icon-settings.svg";
 import SeveralEvents from "components/modal/SeveralEvents";
 
