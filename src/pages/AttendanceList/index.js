@@ -5,6 +5,7 @@ import SearchIcon from "assets/images/icon-search.svg";
 const AttendanceList = () => {
   return (
     <div className="list">
+
       <div className="list__search">
         <div className="input">
           <img src={SearchIcon} alt="searchIcon" />

@@ -18,7 +18,7 @@ const Attendance = ({ attending, notAttending, attendanceVerified, twoSeries, ty
               <img className="checkedIcon" src={checkedIcon} alt="checkedIcon" />
             )}
             <div>
-              <h4>Lunch series A</h4>
+              <h4>Lunch series A </h4>
               {attending && <span className="attending">Attending</span>}
               {notAttending && <span className="notattending">Not Attending</span>}
               {attendanceVerified && (

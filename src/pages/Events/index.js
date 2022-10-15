@@ -2,6 +2,7 @@ import React from "react";
 import "./style.scss";
 import IconSettings from "assets/images/icon-settings.svg";
 import SeveralEvents from "components/modal/SeveralEvents";
+import Modal from "components/modal";
 
 const Events = () => {
   return (
@@ -13,6 +14,8 @@ const Events = () => {
         </div>
       </div>
       <div className="events__content">
+      <Modal.Attendance attending={false} attendanceVerified={true} typeColor="green" button={true} buttonTitle="Register attendance" />
+
         <h3 className="content-title">Select events to register attendants</h3>
         <ul className="select-events">
           <li className="items">

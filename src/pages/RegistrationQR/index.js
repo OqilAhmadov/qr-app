@@ -14,7 +14,10 @@ const RegistrationQR = () => {
         </p>
       </div>
       {/* Area for camera feed */}
-      <div className="scanArea">Area for camera feed</div>
+      <div className="scanArea">
+        Scan Area
+        <div className="scan"></div>
+      </div>
       {/* Area for camera feed */}
       <div className="main__bottom">
         <button className="btn" type="button">

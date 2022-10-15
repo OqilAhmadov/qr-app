@@ -23,7 +23,7 @@ const routes = [
 const RoutesContainer = () => (
   <Router>
     <App>
-      {/* <Layout>   */}
+      <Layout>  
         <Routes>
           {routes.map((route, key) => {
             const RouteComponent = route.element;
@@ -31,7 +31,7 @@ const RoutesContainer = () => (
           })}
         {/* <Route path="/events" element={<Events />} /> */}
         </Routes>
-      {/* </Layout> */}
+      </Layout>
     </App>
   </Router>
 );
